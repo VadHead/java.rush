@@ -10,15 +10,10 @@ package javarush.lvl4.lec02;
 4.	Метод addNewCat класса Cat должен увеличивать количество котов на 1.
 */
 public class task02 {
-    public class Cat {
         private static int catsCount = 0;
-
         public static void addNewCat() {
-            Cat.catsCount++;//напишите тут ваш код
+            task02.catsCount++;
         }
-
         public static void main(String[] args) {
-
         }
-    }
     }

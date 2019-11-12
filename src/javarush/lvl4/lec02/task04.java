@@ -10,7 +10,6 @@ package javarush.lvl4.lec02;
 5.	Метод setName класса Cat должен устанавливать значение глобальной переменной private String fullName равным локальной переменной fullName.
 */
 public class task04 {
-    public class Cat {
         private String fullName;
 
         public void setName(String firstName, String lastName) {
@@ -22,4 +21,4 @@ public class task04 {
 
         }
     }
-}
+

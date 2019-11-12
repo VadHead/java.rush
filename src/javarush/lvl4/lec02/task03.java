@@ -9,15 +9,12 @@ package javarush.lvl4.lec02;
 4.	Метод setCatsCount класса Cat должен устанавливать значение переменной catsCount равным переданному параметру.
 */
 public class task03 {
-    public class Cat {
         private static int catsCount = 0;
-
         public static void setCatsCount(int catsCount) {
-             Cat.catsCount = catsCount;
+            task03.catsCount = catsCount;
         }
-
         public static void main(String[] args) {
-
+            System.out.println(catsCount);
         }
     }
-}
+
