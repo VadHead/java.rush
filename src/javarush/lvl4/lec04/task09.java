@@ -33,14 +33,14 @@ public class task09 {
     public static void main(String[] args) throws IOException {
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
         double time = Double.parseDouble(buffer.readLine());
-        time = time%5;
+        time = time % 5;
         if (time < 3 && time >= 0) {
             System.out.println("зеленый");
-        }else if (time >= 3 && time < 4) {
+        } else if (time >= 3 && time < 4) {
             System.out.println("желтый");
-        }else {
-                System.out.println("красный");
-            }
+        } else {
+            System.out.println("красный");
+        }
         }
     }
 

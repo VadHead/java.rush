@@ -22,8 +22,8 @@ public class task06 {
       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
       int weekDay = Integer.parseInt(reader.readLine());
       String day;
-      if ( weekDay == 1) day = "понедельник";
-      else if (weekDay ==2) day = "вторник";
+      if (weekDay == 1) day = "понедельник";
+      else if (weekDay == 2) day = "вторник";
       else if (weekDay == 3) day = "среда";
       else if (weekDay == 4) day = "четверг";
       else if (weekDay == 5) day = "пятница";

@@ -12,14 +12,14 @@ package javarush.lvl4.lec04;
 */
 import java.util.*;
 import java.io.*;
+
 public class task05 {
     public static void main(String[] args) throws Exception {
-       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int number = Integer.parseInt(reader.readLine());
         int result;
-        if (number > 0) System.out.println(result = number*2);
+        if (number > 0) System.out.println(result = number * 2);
         else if (number == 0) System.out.println(number);
-        else System.out.println(result = number+1);
-
+        else System.out.println(result = number + 1);
     }
 }

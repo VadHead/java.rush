@@ -38,13 +38,13 @@ public class task10 {
         int c = Integer.parseInt(buffer.readLine());
         if (a == b && b == c) {
             System.out.println(a + " " + b + " " + c);
-        }else if (a == b) {
+        } else if (a == b) {
             System.out.println(a + " " + b);
         } else if (b == c) {
-        System.out.println(b + " " + c);
+            System.out.println(b + " " + c);
         } else if (a == c) {
             System.out.println(a + " " + c);
         }
-        }
+    }
     }
 

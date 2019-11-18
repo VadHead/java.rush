@@ -28,9 +28,9 @@ public class task08 {
         int b = Integer.parseInt(buffer.readLine());
         System.out.print("Ведите сторону треугольника c: ");
         int c = Integer.parseInt(buffer.readLine());
-        if (a + b > c && a + c > b && b + c > a){
+        if (a + b > c && a + c > b && b + c > a) {
             System.out.println("Треугольник существует.");
-        }else {
+        } else {
             System.out.println("Треугольник не существует.");
         }
     }
