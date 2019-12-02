@@ -1,7 +1,6 @@
 package javarush.lvl6.lec11;
 import java.io.*;
 import java.util.*;
-
 /*taskKey="com.javarush.task.task06.task0622"\n\nЧисла по возрастанию
 Задача: Написать программу, которая вводит с клавиатуры 5 чисел и выводит их в возрастающем порядке.
 Пример ввода:
