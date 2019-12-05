@@ -60,8 +60,8 @@ public class task09 {
     }
     public static class Cat {
         private String name;
-        private Cat parent1;
-        private Cat parent2;
+        public Cat parent1;
+        public Cat parent2;
 
         Cat(String name) {
             this.name = name;
