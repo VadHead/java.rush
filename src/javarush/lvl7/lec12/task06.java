@@ -21,8 +21,8 @@ import java.security.Guard;
 */
 public class task06 {
     public static void main(String[] args) {
-        Human grFather1 = new Human("Вася", true, 80);
-        Human grFather2 = new Human("Володя", true, 85);
+        var grFather1 = new Human("Вася", true, 80);
+        var grFather2 = new Human("Володя", true, 85);
         Human grMother1 = new Human("Света", false, 77);
         Human grMother2 = new Human("Валя", false, 88);
         Human mother = new Human("Марина", false, 49, grFather1, grMother1);

@@ -15,8 +15,8 @@ import java.util.*;
 public class task02 {
     public static void main(String[] args) throws Exception{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(bf.readLine());
-        int M = Integer.parseInt(bf.readLine());
+        var N = Integer.parseInt(bf.readLine());
+        var M = Integer.parseInt(bf.readLine());
         ArrayList<String> stringArr = new ArrayList<String>();
         for (int i = 0; i < N; i++) {
             stringArr.add(bf.readLine());
