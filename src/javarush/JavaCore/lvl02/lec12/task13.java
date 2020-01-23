@@ -29,6 +29,14 @@ public class task13 {
                 index = i;
             }
         }
+//        List<Integer> list = Arrays.stream(array).boxed().collect(Collectors.toList());
+//        int[] sortedArr = Arrays.copyOf(array,array.length );
+//        Arrays.sort(sortedArr);
+//        int min = sortedArr[0];
+//        System.out.println(Arrays.toString(sortedArr));
+//        int index = Arrays.binarySearch(array, -2);
+//        int index = Collections.singletonList(array).indexOf(-7);
+//        List<Integer> sortedArr = Arrays.<Integer>asList(array);
         return new Pair<Integer, Integer>(min, index);
     }
 
