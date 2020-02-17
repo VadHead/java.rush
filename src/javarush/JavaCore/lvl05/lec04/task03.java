@@ -13,11 +13,8 @@ public class task03 {
         print(1);
     }
 
-
-
     public static void print(long l) {
         System.out.println("Я буду Java прогером!");
     }
-
 
 }

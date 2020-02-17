@@ -26,7 +26,7 @@ public class task01 {
         }
     }
 
-    public static class JuniorJavaDev extends JavaDev{
+    public static class JuniorJavaDev extends JavaDev {
         JavaDev zapp = new JavaDev();
         JavaDev hubert = new JavaDev();
 

@@ -28,6 +28,7 @@ public class task02 {
             System.out.println();
         }
     }
+
     public static void printMatrix(int m, int n, Number value) {
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
